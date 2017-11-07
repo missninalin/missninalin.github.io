@@ -2199,6 +2199,7 @@
 		opacity: 1;
 	}
 
+
 /* Nav */
 
 	#nav {
@@ -2398,6 +2399,7 @@
 
 		#footer .contact {
 			text-align: center;
+			padding: 0 5em ;
 		}
 
 			#footer .contact p {
