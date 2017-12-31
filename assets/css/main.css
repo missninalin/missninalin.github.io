@@ -1747,10 +1747,16 @@
 			width: 100%;
 		}
 
-		.image.featured {
+		.image.featured1 {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
+		}
+
+		.image.featured {
+			display: block;
+			width: 45%;
+			margin: 0 auto 4em auto;
 		}
 
 		.image.left {
