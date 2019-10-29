@@ -3005,9 +3005,9 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
-					/* #header h1 br {
+					#header h1 br {
 						display: none;
-					} */
+					}
 
 				#header > .inner {
 					margin-bottom: 0;
@@ -3040,7 +3040,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			h2 br, h3 br, h4 br, h5 br, h6 br {
+			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
 			}
 
@@ -3204,9 +3204,9 @@ input, select, textarea {
 				padding: 4.5em 1.5em;
 			}
 
-				/* #header h1 br {
+				#header h1 br {
 					display: none;
-				} */
+				}
 
 		/* Footer */
 
