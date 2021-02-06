@@ -9,8 +9,6 @@
 	
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$phone = $_POST['phone'];
-	$website = $_POST['website'];
 	$message = $_POST['message'];
 	
 	if( empty($name) ){
@@ -19,13 +17,9 @@
 		$data['error'] = 'Please enter a valid email address.';
 	}else if( empty($message) ){
 		$data['error'] = 'The message field is required!';
-	// }else if( empty($phone) ){
-	// 	$data['error'] = 'Please enter your phone number.';
-	// }else if ( empty($website) ){
-	// 	$data['error'] = 'Please enter your website.';
 	}else{
 		
-		$formcontent="From: $name\nPhone: $phone\nWebsite: $website\nEmail: $email\nMessage: $message";
+		$formcontent="From: $name\nEmail: $email\nMessage: $message";
 		
 		
 		//Place your Email Here
